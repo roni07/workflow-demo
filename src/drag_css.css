@@ -1,0 +1,13 @@
+.draggable-item {
+    padding: 10px;
+    border: 1px solid black;
+    margin: 5px 0; /* Adjusted for vertical spacing */
+    background-color: #f9f9f9;
+    cursor: move;
+    transition: transform 0.2s ease, opacity 0.2s ease; /* Animation for smooth transitions */
+}
+
+.draggable-item.dragging {
+    opacity: 0.5; /* Make it semi-transparent when dragging */
+    transform: scale(1.05); /* Slight scale effect */
+}
